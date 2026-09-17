@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techflipsi.github.io/flipsitherm-site/sitemap.xml
+# Alt-Site-Weiterleitungen: nicht indexieren
+Disallow: /flipsitherm-site/
+Disallow: /flipsicolor-site/
+Disallow: /ha-desklink/
